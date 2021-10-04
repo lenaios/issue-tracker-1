@@ -464,6 +464,7 @@
 				B3B559DA266E095E00901C55 /* Frameworks */,
 				B3B559DB266E095E00901C55 /* Resources */,
 				B3CBD199267C34F200F8D733 /* ShellScript */,
+				C13BEBBED7AA8CF63BDB7B21 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -508,6 +509,7 @@
 				B3B559FA266E096000901C55 /* Sources */,
 				B3B559FB266E096000901C55 /* Frameworks */,
 				B3B559FC266E096000901C55 /* Resources */,
+				C40528B7C7B42080BC9FC26B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -658,6 +660,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint\n";
+		};
+		C13BEBBED7AA8CF63BDB7B21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-issue-tracker/Pods-issue-tracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-issue-tracker/Pods-issue-tracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-issue-tracker/Pods-issue-tracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C40528B7C7B42080BC9FC26B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-issue-tracker-issue-trackerUITests/Pods-issue-tracker-issue-trackerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-issue-tracker-issue-trackerUITests/Pods-issue-tracker-issue-trackerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-issue-tracker-issue-trackerUITests/Pods-issue-tracker-issue-trackerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		F949EFDA4F0A02CAD51691D6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
